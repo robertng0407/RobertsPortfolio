@@ -55,3 +55,4 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+gem 'robert_view_tool', git: 'https://github.com/robertng0407/view_tool'
