@@ -115,6 +115,11 @@ body {
 /*
  * Custom Styles
  */
+
+//  body {
+//    font-family: monospace;
+//  }
+
 .card {
      color: black;
  }
@@ -130,3 +135,10 @@ body {
  .register-text {
      text-align: right;
  }
+
+.login > .card {
+  width: 30rem;
+  border-radius: 0px;
+  margin: 0 auto;
+  float: none;
+}
