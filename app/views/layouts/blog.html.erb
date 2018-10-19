@@ -76,7 +76,7 @@
 
     <main role="main" class="container">
       <div class="row">
-      
+
         <%= yield %>
 
         <aside class="col-md-4 blog-sidebar">
@@ -113,9 +113,7 @@
           </div>
         </aside><!-- /.blog-sidebar -->
 
-        <%= render 'shared/nav', location: 'bottom'%>
 
-        <%= source_helper("blog") %>
       </div>
     </main>
 
@@ -125,5 +123,6 @@
         <a href="#">Back to top</a>
       </p>
     </footer>
+    <%= source_helper("blog") %>
   </body>
 </html>
