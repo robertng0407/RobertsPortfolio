@@ -13,11 +13,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
             </a>
             -->
-            <%= link_to "Home", root_path, class: "nav-link text-muted" %>
-            <%= link_to "About", about_me_path, class: "nav-link text-muted" %>
-            <%= link_to "Contact", contact_path, class: "nav-link text-muted" %>
-            <%= link_to "Blog", blogs_path, class: "nav-link text-muted" %>
-            <%= link_to "Portfolio", portfolios_path, class: "nav-link text-muted" %>
+            <%= nav_helper 'nav-link text-muted', 'span' %>
         </div>
     </div>
 </header>
