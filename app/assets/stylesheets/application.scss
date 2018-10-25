@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -165,3 +166,28 @@ body {
 .app-footer {
   color: white;
 }
+
+.home-btn {
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}
+
+.home-btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+body {
+  font-family: monospace;
+}
+
+.about-description {
+  font-size: 1.2em;
+}
+
+.contact-info {
+  font-size: 1.3em;
+}
+
