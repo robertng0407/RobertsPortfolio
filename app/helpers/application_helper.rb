@@ -36,7 +36,7 @@ module ApplicationHelper
       },
       {
         url: blogs_path,
-        title: 'Blog'
+        title: 'Travel_blog'
       },
       {
         url: portfolios_path,
